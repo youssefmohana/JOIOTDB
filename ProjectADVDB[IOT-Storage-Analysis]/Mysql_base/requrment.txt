@@ -1,0 +1,4 @@
+Adafruit_DHT
+Flask
+mysql-connector-python
+matplotlib
