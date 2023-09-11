@@ -17,6 +17,13 @@ The requirements.txt file should list all Python libraries that your notebooks d
 ```
 pip install -r requirements.txt
 ```
+requirement.txt content:
+```
+Adafruit_DHT
+Flask
+mysql-connector-python
+matplotlib
+```
 2. use resperpi to log data in mysql by using Adfruit and Mysql.connector in python
 3. show data by using templete (bootstrap cdn files )
 4. profile time taked for insertion and selection in mysql
