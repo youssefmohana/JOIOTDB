@@ -74,8 +74,6 @@ pip install -r requirements.txt
 3. use resperpi to log data and insert it in tinydb by using DHT11 data (hum , Temp) 
 4. show data by using templete (bootstrap cdn files and justgang cdn files , matploit for graphing data )
 5. profile time taked for insertion and selection in Sqlite 
-
-
 To log data sensor in database:
 ```
 python Dht11Sensor.py
