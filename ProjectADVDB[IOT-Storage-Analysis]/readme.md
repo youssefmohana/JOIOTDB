@@ -8,12 +8,12 @@
 ## MYSQL
 1. install mysql (mariiadb for rasperpi lightwieght) and create table caller (Weathe_data) and get code from adufruit (DHT11)
 
-        1. to install mysql in rasperpi:
+1. to install mysql in rasperpi:
 ```
 sudo apt install mariadb-server -y
 ```
     
-        2. run to install all packages 
+2. run to install all packages 
 ```
 pip install -r requirements.txt
 ```
