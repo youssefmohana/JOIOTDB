@@ -49,6 +49,20 @@ pip install -r requirements.txt
 3. use resperpi to log data in sqlite3 connector 
 4. show data by using templete (bootstrap cdn files and justgang cdn files , matploit for graphing data )
 5. profile time taked for insertion and selection in Sqlite 
+To Create Sqllite Database:
+```
+python CreateSqliteDB.py
+```
+ 
+To log data sensor in database:
+```
+python Dht11Sensor.py
+```
+
+TO run flask api:
+```
+python app.py
+```
 
 
 ## TinyDB
