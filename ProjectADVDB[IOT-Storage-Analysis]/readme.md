@@ -67,6 +67,21 @@ python app.py
 
 ## TinyDB
 1. install TinyDB (sensor_data)
-2. use resperpi to log data and insert it in tinydb by using DHT11 data (hum , Temp) 
-3. show data by using templete (bootstrap cdn files and justgang cdn files , matploit for graphing data )
-4. profile time taked for insertion and selection in Sqlite 
+The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using(Note TinyDb not need seprate install for tinydb ):
+```
+pip install -r requirements.txt
+```
+3. use resperpi to log data and insert it in tinydb by using DHT11 data (hum , Temp) 
+4. show data by using templete (bootstrap cdn files and justgang cdn files , matploit for graphing data )
+5. profile time taked for insertion and selection in Sqlite 
+
+
+To log data sensor in database:
+```
+python Dht11Sensor.py
+```
+
+TO run flask api:
+```
+python app.py
+```
