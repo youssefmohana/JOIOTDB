@@ -71,6 +71,14 @@ The requirements.txt file should list all Python libraries that your notebooks d
 ```
 pip install -r requirements.txt
 ```
+requirement.txt content:
+```
+Adafruit_DHT
+Flask
+matplotlib
+tinydb
+flask_caching
+```
 3. use resperpi to log data and insert it in tinydb by using DHT11 data (hum , Temp) 
 4. show data by using templete (bootstrap cdn files and justgang cdn files , matploit for graphing data )
 5. profile time taked for insertion and selection in Sqlite 
